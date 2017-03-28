@@ -48,11 +48,8 @@ var work = {
       "description": "Assist the developers with user experience and user interface while creating the app. Also, assist the Marketing team in focus group goals and promotional ideas."
     },
     {
-<<<<<<< HEAD
       "employer": "Nolimit Customs",
-=======
       "employer": "No Limit GFX",
->>>>>>> origin/master
       "title": "Operations Manager",
       "location": "North Myrtle Beach, SC",
       "dates": "September 2015 - January 2017",
@@ -104,7 +101,6 @@ var work = {
       "url": "https://www.hgtc.edu"
     },
     {
-<<<<<<< HEAD
       "name": "EFI University",
       "location": "Jacksonville, NC",
       "degree": "Certificate",
@@ -118,13 +114,11 @@ var work = {
       "school": "Udacity",
       "dates": "August 2016 - March 2017",
       "url": "https://www.udacity.com",
-=======
       "name": "Udacity",
       "location": "Online",
       "degree": "Nanodegree",
       "dates": "August 2016 - March 2017",
       "majors": "Front-end Website Development"
->>>>>>> origin/master
     }
   ]
 };
