@@ -1,0 +1,196 @@
+var bio = {
+  "name" : "Jeff Berlin",
+  "role": "Front-end Web Developer",
+  "contacts": {
+    "mobile": "302-463-5129",
+    "email": "jeff@jbrally.com",
+    "twitter": "@berlin_jeff",
+    "github": "jeffberlinrally88",
+    "location": "Wilmington, NC"
+  },
+  "placesLived": [
+    "Wilmington, DE",
+    "North Myrtle Beach, SC",
+    "Wilmington, NC"
+  ],
+  "welcomeMessage" : "Front-end Ninja for hire!",
+  "skills" : ["Social Media", "HTML", "CSS", "Automotive", "Photoshop", "Illustrator", "InDesign"],
+  "biopic" : "images/fry.jpg"
+};
+
+var data = "%data%";
+
+bio.display = function() {
+  $("#header").prepend(HTMLheaderRole.replace(data, bio.role));
+  $("#header").prepend(HTMLheaderName.replace(data, bio.name));
+  $("#header").append(HTMLbioPic.replace(data, bio.biopic), (HTMLwelcomeMsg.replace(data, bio.welcomeMessage)));
+
+  $("#header").append(HTMLskillsStart);
+  for (var i = 0; i < bio.skills.length; i++) {
+    $("#skills").append(HTMLskills.replace(data, bio.skills[i]));
+  }
+
+  $("#topContacts, #footerContacts").append(HTMLmobile.replace(data, bio.contacts.mobile));
+  $("#topContacts, #footerContacts").append(HTMLemail.replace(data, bio.contacts.email));
+  $("#topContacts, #footerContacts").append(HTMLtwitter.replace(data, bio.contacts.twitter));
+  $("#topContacts, #footerContacts").append(HTMLgithub.replace(data, bio.contacts.github));
+  $("#topContacts, #footerContacts").append(HTMLlocation.replace(data, bio.contacts.location));
+};
+bio.display();
+
+var work = {
+  "jobs": [
+    {
+      "employer": "JOMO, Inc.",
+      "title": "Mobile UI/UX Intern",
+      "location": "Wilmington, NC",
+      "dates": "January 2017 - Present",
+      "description": "Assist the developers with user experience and user interface while creating the app. Also, assist the Marketing team in focus group goals and promotional ideas."
+    },
+    {
+<<<<<<< HEAD
+      "employer": "Nolimit Customs",
+=======
+      "employer": "No Limit GFX",
+>>>>>>> origin/master
+      "title": "Operations Manager",
+      "location": "North Myrtle Beach, SC",
+      "dates": "September 2015 - January 2017",
+      "description": "Oversee day-to-day operations, scheduling, online sales, walk-in customers, phone calls, inventory and ordering, parts ordering, and working directly with the technicians to keep projects moving smoothly."
+    },
+    {
+      "employer": "Hadwin-White Buick, GMC, Subaru",
+      "title": "Parts Associate, Shipping and Receiving",
+      "location": "Conway, SC",
+      "dates": "July 2014 - June 2015",
+      "description": "Work out price quotes, bill and assemble parts lists for technicians, attend to phone-calls and walk-in customers, ship parts back, receive parts into inventory, and deliver parts to other shops and dealerships."
+    },
+    {
+      "employer": "J&P Management Inc., DBA Jersey Mike's Subs",
+      "title": "Night Manager/Shift Leader",
+      "location": "North Myrtle Beach, SC",
+      "dates": "September 2007 - July 2014",
+      "description": "Made sure all the employees completed their assigned tasks during the closing hours of the night, kept the store neat, clean, and organized, and assisted customers as they would walk-in or call."
+    },
+    {
+      "employer": "Service Tech General Contracting",
+      "title": "Carpenter/Painter",
+      "location": "North Myrtle Beach, SC",
+      "dates": "July 2010 - November 2012",
+      "description": "Remodel homes, rooms, condos, and apartment complexes."
+    }
+  ]
+  };
+
+  work.display = function() {
+    for (var i = 0; i < work.jobs.length; i++) {
+      $("#workExperience").append(HTMLworkStart);
+      var formattedEmployer = HTMLworkEmployer.replace(data, work.jobs[i].employer);
+      var formattedTitle = HTMLworkTitle.replace(data, work.jobs[i].title);
+      $(".work-entry:last").append(formattedEmployer + formattedTitle);
+      $(".work-entry:last").append(HTMLworkLocation.replace(data, work.jobs[i].location), (HTMLworkDates.replace(data, work.jobs[i].dates)), (HTMLworkDescription.replace(data, work.jobs[i].description)));
+    }
+  };
+  work.display();
+
+  var education = {
+    "schools" : [
+      {
+      "name": "Horry-Georgetown Technical College",
+      "location": "Conway, SC",
+      "degree": "Associates",
+      "majors": ["Digital Arts"],
+      "dates": "August 2009 - April 2016",
+      "url": "https://www.hgtc.edu"
+    },
+    {
+<<<<<<< HEAD
+      "name": "EFI University",
+      "location": "Jacksonville, NC",
+      "degree": "Certificate",
+      "majors": ["Electronically Fuel Injection Tuning - Advanced"],
+      "dates": "October 2013 - May 2014",
+      "url": "https://www.efi101.com"
+    }
+  ],
+    "onlineCourses": [{
+      "title": "Front-end Website Developement Nanodegree",
+      "school": "Udacity",
+      "dates": "August 2016 - March 2017",
+      "url": "https://www.udacity.com",
+=======
+      "name": "Udacity",
+      "location": "Online",
+      "degree": "Nanodegree",
+      "dates": "August 2016 - March 2017",
+      "majors": "Front-end Website Development"
+>>>>>>> origin/master
+    }
+  ]
+};
+
+education.display = function() {
+
+  education.schools.forEach(function(school) {
+    $("#education").append(HTMLschoolStart);
+
+    var formattedSchool = HTMLschoolName.replace(data, school.name).replace('#', school.url);
+    var formattedSchoolDates = HTMLschoolDates.replace(data, school.dates);
+    var formattedSchoolLocation = HTMLschoolLocation.replace(data, school.location);
+    var formattedSchoolDegree = HTMLschoolDegree.replace(data, school.degree);
+    var formattedSchoolMajor = HTMLschoolMajor.replace(data, school.majors);
+    var formattedEducation = formattedSchool + formattedSchoolDegree + formattedSchoolDates + formattedSchoolLocation + formattedSchoolMajor;
+    $(".education-entry:last").append(formattedEducation);
+  });
+
+  education.onlineCourses.forEach(function(classes) {
+    $(".education-entry:last").append(HTMLonlineClasses);
+    var formattedTitle = HTMLonlineTitle.replace(data, classes.title);
+    var formattedSchool = HTMLonlineSchool.replace(data, classes.school);
+    var formattedURL = HTMLonlineURL.replace(data, classes.url).replace('#', classes.url);
+    var formattedDates = HTMLonlineDates.replace(data, classes.dates);
+    var formattedOnlineClasses = formattedTitle + formattedSchool + formattedDates + formattedURL;
+    $(".education-entry:last").append(formattedOnlineClasses);
+  });
+};
+education.display();
+
+
+  function inName(name) {
+    name = name.trim().split(" ");
+    console.log(name);
+    name[1] = name[1].toUpperCase();
+    name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+
+    return name[0] +" "+name[1];
+  }
+
+  $('#main').append(internationalizeButton);
+
+  var projects = {
+    "projects": [
+      {
+    "title": "Animal Trading Cards",
+    "dates": "August 2016",
+    "description": "Created an animal trading card based on guidelines for CSS padding, margins, and borders.",
+    "images": ["images/animaltradingcards.png"]
+  },
+  {
+    "title": "PDF Webpage Layout",
+    "dates": "September 2016",
+    "description": "Recreated a layout of a .pdf file to proper scaling and made it a responsive webpage.",
+    "images": ["images/buildingportfolio.png"]
+  }
+]
+};
+
+projects.display = function() {
+  for (var i = 0; i < projects.projects.length; i++) {
+    $("#projects").append(HTMLprojectStart);
+
+    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)));
+  }
+};
+projects.display();
+
+  $("#mapDiv").append(googleMap);
