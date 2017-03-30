@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Ninja for hire!",
-  "skills" : ["Social Media", "HTML", "CSS", "Automotive", "Photoshop", "Illustrator", "InDesign"],
+  "skills" : ["HTML", "CSS", "JavaScript", "Python", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"],
   "biopic" : "images/fry.jpg"
 };
 
@@ -48,7 +48,6 @@ var work = {
       "description": "Assist the developers with user experience and user interface while creating the app. Also, assist the Marketing team in focus group goals and promotional ideas."
     },
     {
-      "employer": "Nolimit Customs",
       "employer": "No Limit GFX",
       "title": "Operations Manager",
       "location": "North Myrtle Beach, SC",
