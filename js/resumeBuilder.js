@@ -73,7 +73,7 @@ var work = {
       "title": "Carpenter/Painter",
       "location": "North Myrtle Beach, SC",
       "dates": "July 2010 - November 2012",
-      "description": "Remodel homes, rooms, condos, and apartment complexes."
+      "description": "Remodeled homes, rooms, condos, and apartment complexes."
     }
   ]
   };
