@@ -78,7 +78,7 @@ $(document).click(function(loc) {
 
 
 /*
-This is the fun part. Here's where we generate the custom Google Map for the website.
+Here's where we generate the custom Google Map for the website.
 See the documentation below for more details.
 https://developers.google.com/maps/documentation/javascript/reference
 */
@@ -164,11 +164,12 @@ function initializeMap() {
     // about a location.
     var infoWindow = new google.maps.InfoWindow();
 
-    var windowContent = '<div>' + '<h4>' + work.jobs.employer + '</h4>' + '</div>' + '<div>' + '<b>' + locations + '</b>' + '</div>';
+    var windowName = work.jobs.employer;
 
     google.maps.event.addListener(marker, 'click', function() {
-      infoWindow.setContent(windowContent);
+      infoWindow.setContent('<div>' + '<h4>' + windowName + '</h4>' + '</div>' + '<div>' + name + '</div>');
       infoWindow.open(map, marker);
+      console.log(windowName)
     });
 
     // this is where the pin actually gets added to the map.

@@ -5,7 +5,7 @@ var bio = {
     "mobile": "302-463-5129",
     "email": "jeff@jbrally.com",
     "twitter": "@berlin_jeff",
-    "github": "jeffberlinrally88",
+    "github": "jeffberlin",
     "location": "Wilmington, NC"
   },
   "placesLived": [
@@ -13,9 +13,9 @@ var bio = {
     "North Myrtle Beach, SC",
     "Wilmington, NC"
   ],
-  "welcomeMessage" : "Front-end Ninja for hire!",
-  "skills" : ["HTML", "CSS", "JavaScript", "Python", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"],
-  "biopic" : "images/fry.jpg"
+  "welcomeMessage" : "Front-end Web Developer for hire!",
+  "skills" : ["HTML", "CSS", "JavaScript", "JQuery", "AJAX", "NodeJS", "Python", "Adobe Photoshop, Illustrator, inDesign"],
+  "biopic" : "images/racing.jpg"
 };
 
 var data = "%data%";
@@ -163,16 +163,32 @@ education.display();
   var projects = {
     "projects": [
       {
-    "title": "Animal Trading Cards",
-    "dates": "August 2016",
-    "description": "Created an animal trading card based on guidelines for CSS padding, margins, and borders.",
-    "images": ["images/animaltradingcards.png"]
+    "title": "Activity Randomizer",
+    "dates": "April 2017",
+    "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks actities to do! (Built using Foundation).",
+    "images": ["images/Activity Randomizer.png"],
+    "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
   },
   {
-    "title": "PDF Webpage Layout",
-    "dates": "September 2016",
-    "description": "Recreated a layout of a .pdf file to proper scaling and made it a responsive webpage.",
-    "images": ["images/buildingportfolio.png"]
+    "title": "JavaScript Arcade Frogger Game",
+    "dates": "December 2016",
+    "description": "A newer version of the Frogger, except with different characters and a new layout! (Built with JS, JQuery, HTML, and CSS).",
+    "images": ["images/JS Arcade Game.png"],
+    "url": "https://jeffberlin.github.io/Frogger-JavaScript/"
+  },
+  {
+    "title": "Wilmington Brewers",
+    "dates": "March 2017",
+    "description": "An interactive Google Map that displays the breweries in Wilmington, NC and displays infowindow information provided by Foursquare. (Built using KnockoutJS).",
+    "images": ["images/Wilmington Brewers.png"],
+    "url": "https://github.com/jeffberlin/Wilmington-Brewers"
+  },
+  {
+    "title": "RandomAPI User",
+    "dates": "February 2017",
+    "description": "Built to the specifications of a design from Gavin Anthony that pulls certain information for API users.",
+    "images": ["images/randomapi.png"],
+    "url": "https://jeffberlin.github.io/randomAPI/"
   }
 ]
 };
@@ -181,7 +197,7 @@ projects.display = function() {
   for (var i = 0; i < projects.projects.length; i++) {
     $("#projects").append(HTMLprojectStart);
 
-    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)));
+    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title).replace('#', projects.projects[i].url), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)));
   }
 };
 projects.display();
