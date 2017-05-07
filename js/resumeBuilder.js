@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer for hire!",
-  "skills" : ["HTML", "CSS", "JavaScript", "JQuery", "AJAX", "NodeJS", "Python", "Adobe Photoshop, Illustrator, inDesign"],
+  "skills" : ["HTML", "CSS", "Responsive CSS Design", "JavaScript", "JQuery", "AJAX", "KnockoutJS", "NodeJS", "Bootstrap", "Zurb Foundation CSS", "ReactJS", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign"],
   "biopic" : "images/racing.jpg"
 };
 
@@ -45,35 +45,35 @@ var work = {
       "title": "Mobile UI/UX Intern",
       "location": "Wilmington, NC",
       "dates": "January 2017 - Present",
-      "description": "Assist the developers with user experience and user interface while creating the app. Also, assist the Marketing team in focus group goals and promotional ideas."
+      "description": "Create website content, app features, and help with the design layout for mobile optimization. Assit the marketing team with focus group questioning for the UI/UX."
     },
     {
       "employer": "No Limit GFX",
       "title": "Operations Manager",
       "location": "North Myrtle Beach, SC",
       "dates": "September 2015 - January 2017",
-      "description": "Oversee day-to-day operations, scheduling, online sales, walk-in customers, phone calls, inventory and ordering, parts ordering, and working directly with the technicians to keep projects moving smoothly."
+      "description": "Handled all of the online sales, project secheduling, inventory ordering, and processed all inbound and outbound shipments. Worked with the technicians to verify all parts and materials were available to complete projects."
     },
     {
       "employer": "Hadwin-White Buick, GMC, Subaru",
       "title": "Parts Associate, Shipping and Receiving",
       "location": "Conway, SC",
       "dates": "July 2014 - June 2015",
-      "description": "Work out price quotes, bill and assemble parts lists for technicians, attend to phone-calls and walk-in customers, ship parts back, receive parts into inventory, and deliver parts to other shops and dealerships."
+      "description": "Handled all inbound shipments, assisted walk-in customers, and answered phone calls. Worked one-on-one with the Parts Manager to increase sales, productivity, and efficiency."
     },
     {
       "employer": "J&P Management Inc., DBA Jersey Mike's Subs",
       "title": "Night Manager/Shift Leader",
       "location": "North Myrtle Beach, SC",
       "dates": "September 2007 - July 2014",
-      "description": "Made sure all the employees completed their assigned tasks during the closing hours of the night, kept the store neat, clean, and organized, and assisted customers as they would walk-in or call."
+      "description": "Assigned daily tasks for employees, counted the money at the end of the shift, and made sure all duties were completed. Consulted with the General Manager and Owners to solve any issues that would arise."
     },
     {
       "employer": "Service Tech General Contracting",
       "title": "Carpenter/Painter",
       "location": "North Myrtle Beach, SC",
       "dates": "July 2010 - November 2012",
-      "description": "Remodeled homes, rooms, condos, and apartment complexes."
+      "description": "assisted the foreman in completing remodeling projects, demolition work, and repairs."
     }
   ]
   };
@@ -162,7 +162,14 @@ education.display();
 
   var projects = {
     "projects": [
-      {
+  {
+    "title": "Black Sheep Content Co.",
+    "dates": "May 2017",
+    "description": "Created a sample homepage with links to social media pages and a contact form. (Built using HTML, CSS, Bootstrap, JQuery, and JavaScript).",
+    "images": ["images/Blacksheep copy.png"],
+    "url": "https://jeffberlin.github.io/Black_Sheep_Content_Co/index.html"
+  },
+  {
     "title": "Activity Randomizer",
     "dates": "April 2017",
     "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks actities to do! (Built using Foundation).",
@@ -197,9 +204,9 @@ projects.display = function() {
   for (var i = 0; i < projects.projects.length; i++) {
     $("#projects").append(HTMLprojectStart);
 
-    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title).replace('#', projects.projects[i].url), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)));
+    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title).replace('#', projects.projects[i].url), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)).replace('#', projects.projects[i].images));
   }
 };
 projects.display();
 
-  $("#mapDiv").append(googleMap);
+$("#mapDiv").append(googleMap);
