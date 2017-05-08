@@ -38,16 +38,13 @@ h2 {
   font-size: 28px;
   color: #f5a623;
   line-height: 29px;
-  padding: 10px;
-  /*-webkit-text-stroke-width: .3px;
-  -webkit-text-stroke-color: #f5a623; */
+  padding: 10px; 
 }
 
 h3 {
   font-style: italic;
   font-size: 20px;
   color: #f5ae23;
-  /* line-height: 300px; */
   margin-top: 20px;
 }
 
@@ -192,8 +189,6 @@ span {
 #lets-connect {
   text-align: center;
 }
-
-/* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
   #lets-connect {
