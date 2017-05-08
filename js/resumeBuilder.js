@@ -4,7 +4,7 @@ var bio = {
   "contacts": {
     "mobile": "302-463-5129",
     "email": "jeff@jbrally.com",
-    "twitter": "@berlin_jeff",
+    "linkedIn": "Jeff Berlin",
     "github": "jeffberlin",
     "location": "Wilmington, NC"
   },
@@ -32,8 +32,8 @@ bio.display = function() {
 
   $("#topContacts, #footerContacts").append(HTMLmobile.replace(data, bio.contacts.mobile));
   $("#topContacts, #footerContacts").append(HTMLemail.replace(data, bio.contacts.email));
-  $("#topContacts, #footerContacts").append(HTMLtwitter.replace(data, bio.contacts.twitter));
-  $("#topContacts, #footerContacts").append(HTMLgithub.replace(data, bio.contacts.github));
+  $("#topContacts, #footerContacts").append(HTMLlinkedIn.replace(data, bio.contacts.linkedIn).replace('#', 'https://www.linkedin.com/in/jeff-berlin-8a199813a'));
+  $("#topContacts, #footerContacts").append(HTMLgithub.replace(data, bio.contacts.github).replace('#', 'https://www.github.com/jeffberlin'));
   $("#topContacts, #footerContacts").append(HTMLlocation.replace(data, bio.contacts.location));
 };
 bio.display();
