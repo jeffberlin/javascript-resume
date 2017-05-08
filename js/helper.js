@@ -104,7 +104,7 @@ function initializeMap() {
     }
 
     // iterates through school locations and appends each location to
-    // the locations array. Note that forEach is used for array iteration
+    // the locations array.
     education.schools.forEach(function(school){
       locations.push(school.location);
     });
@@ -131,7 +131,6 @@ function initializeMap() {
     var name = placeData.formatted_address;   // name of the place from the place service
     var bounds = window.mapBounds;  // current boundaries of the map window
 
-    // marker is an object with additional data about the pin for a single location
     var marker = new google.maps.Marker({
       map: map,
       position: placeData.geometry.location,

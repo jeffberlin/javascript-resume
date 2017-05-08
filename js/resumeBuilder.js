@@ -13,7 +13,7 @@ var bio = {
     "North Myrtle Beach, SC",
     "Wilmington, NC"
   ],
-  "welcomeMessage" : "Front-end Web Developer for hire!",
+  "welcomeMessage" : "Front-end Web Developer and race car driver!",
   "skills" : ["HTML", "CSS", "Responsive CSS Design", "JavaScript", "JQuery", "AJAX", "KnockoutJS", "NodeJS", "Bootstrap", "Zurb Foundation CSS", "ReactJS", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign"],
   "biopic" : "images/racing.jpg"
 };
@@ -45,7 +45,8 @@ var work = {
       "title": "Mobile UI/UX Intern",
       "location": "Wilmington, NC",
       "dates": "January 2017 - Present",
-      "description": "Create website content, app features, and help with the design layout for mobile optimization. Assit the marketing team with focus group questioning for the UI/UX."
+      "description": "Create website content, app features, and help with the design layout for mobile optimization. Assit the marketing team with focus group questioning for the UI/UX.",
+      "url": "https://www.jomoapp.com"
     },
     {
       "employer": "No Limit GFX",
@@ -81,7 +82,7 @@ var work = {
   work.display = function() {
     for (var i = 0; i < work.jobs.length; i++) {
       $("#workExperience").append(HTMLworkStart);
-      var formattedEmployer = HTMLworkEmployer.replace(data, work.jobs[i].employer);
+      var formattedEmployer = HTMLworkEmployer.replace(data, work.jobs[i].employer).replace('#', work.jobs[i].url);
       var formattedTitle = HTMLworkTitle.replace(data, work.jobs[i].title);
       $(".work-entry:last").append(formattedEmployer + formattedTitle);
       $(".work-entry:last").append(HTMLworkLocation.replace(data, work.jobs[i].location), (HTMLworkDates.replace(data, work.jobs[i].dates)), (HTMLworkDescription.replace(data, work.jobs[i].description)));
@@ -138,7 +139,7 @@ education.display = function() {
 
   education.onlineCourses.forEach(function(classes) {
     $(".education-entry:last").append(HTMLonlineClasses);
-    var formattedTitle = HTMLonlineTitle.replace(data, classes.title);
+    var formattedTitle = HTMLonlineTitle.replace(data, classes.title).replace('#', classes.url);
     var formattedSchool = HTMLonlineSchool.replace(data, classes.school);
     var formattedURL = HTMLonlineURL.replace(data, classes.url).replace('#', classes.url);
     var formattedDates = HTMLonlineDates.replace(data, classes.dates);
@@ -147,7 +148,6 @@ education.display = function() {
   });
 };
 education.display();
-
 
   function inName(name) {
     name = name.trim().split(" ");
@@ -173,7 +173,7 @@ education.display();
     "title": "Activity Randomizer",
     "dates": "April 2017",
     "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks actities to do! (Built using Foundation).",
-    "images": ["images/Activity Randomizer.png"],
+    "images": ["images/Activity Randomizer2 copy.png"],
     "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
   },
   {
@@ -193,7 +193,7 @@ education.display();
   {
     "title": "RandomAPI User",
     "dates": "February 2017",
-    "description": "Built to the specifications of a design from Gavin Anthony that pulls certain information for API users.",
+    "description": "Built to the specifications of a design from Gavin Anthony, that pulls certain information from API users.",
     "images": ["images/randomapi.png"],
     "url": "https://jeffberlin.github.io/randomAPI/"
   }
