@@ -74,7 +74,7 @@ var work = {
       "title": "Carpenter/Painter",
       "location": "North Myrtle Beach, SC",
       "dates": "July 2010 - November 2012",
-      "description": "assisted the foreman in completing remodeling projects, demolition work, and repairs."
+      "description": "Assisted the foreman in completing remodeling projects, demolition work, and repairs."
     }
   ]
   };
@@ -172,7 +172,7 @@ education.display();
   {
     "title": "Activity Randomizer",
     "dates": "April 2017",
-    "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks actities to do! (Built using Foundation).",
+    "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks activities to do! (Built using Foundation CSS).",
     "images": ["images/Activity Randomizer2 copy.png"],
     "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
   },
