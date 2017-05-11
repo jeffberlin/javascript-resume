@@ -70,7 +70,7 @@ var work = {
       "description": "Assigned daily tasks for employees, counted the money at the end of the shift, and made sure all duties were completed. Consulted with the General Manager and Owners to solve any issues that would arise."
     },
     {
-      "employer": "Service Tech General Contracting",
+      "employer": "Service Tech",
       "title": "Carpenter/Painter",
       "location": "North Myrtle Beach, SC",
       "dates": "July 2010 - November 2012",
