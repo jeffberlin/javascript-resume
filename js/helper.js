@@ -74,7 +74,8 @@ The next few lines about clicks are for the Collecting Click Locations
 //   // your code goes here!
 // });
 
-var map;    // declares a global map variable
+var map;
+var infoWindow = new google.maps.InfoWindow();
 
 function initializeMap() {
 
@@ -136,19 +137,13 @@ function initializeMap() {
       position: placeData.geometry.location,
       title: name
     });
-
-    // infoWindows are the little helper windows that open when you click
-    // or hover over a pin on a map. They usually contain more information
-    // about a location.
-    var infoWindow = new google.maps.InfoWindow();
-
-    var windowName = name;
-
-    google.maps.event.addListener(marker, 'click', function() {
-      infoWindow.setContent('<div>' + '<h4>' + windowName + '</h4>' + '</div>');
+    marker.addListener('click', function() {
+      infoWindow.setContent('<div>' + '<h4>' + marker.title + '</h4>' + '</div>');
       infoWindow.open(map, marker);
-      console.log(windowName)
+      console.log(marker.title);
     });
+
+    
 
     // this is where the pin actually gets added to the map.
     // bounds.extend() takes in a map location object
