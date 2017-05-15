@@ -76,7 +76,7 @@ The next few lines about clicks are for the Collecting Click Locations
 
 var map;
 
-function initMap() {
+function initializeMap() {
 
   var locations;
 
@@ -107,7 +107,7 @@ function initMap() {
 
     // iterates through school locations and appends each location to
     // the locations array.
-    education.schools.forEach(function(school){
+    education.schools.forEach(function(school) {
       locations.push(school.location);
     });
 
@@ -141,7 +141,6 @@ function initMap() {
     marker.addListener('click', function() {
       infoWindow.setContent('<div>' + '<h4>' + marker.title + '</h4>' + '</div>');
       infoWindow.open(map, marker);
-      console.log(marker.title);
     });
 
     // this is where the pin actually gets added to the map.
@@ -196,12 +195,10 @@ function initMap() {
   // the locations array
   pinPoster(locations);
 
-  window.initMap = initMap;
-
 }
 
 // Calls the initializeMap() function when the page loads
-window.addEventListener('load', initMap());
+window.addEventListener('load', initializeMap);
 
 // Vanilla JS way to listen for resizing of the window
 // and adjust map bounds
