@@ -15,7 +15,7 @@ var bio = {
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
   "skills" : ["HTML", "CSS", "Responsive CSS Design", "JavaScript", "JQuery", "AJAX", "KnockoutJS", "NodeJS", "Bootstrap", "Zurb Foundation CSS", "ReactJS", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign"],
-  "biopic" : "images/racing.jpg"
+  "biopic" : "images/racing-min.jpg"
 };
 
 var data = "%data%";
@@ -173,7 +173,7 @@ education.display();
     "title": "Activity Randomizer",
     "dates": "April 2017",
     "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks activities to do! (Built using Foundation CSS).",
-    "images": ["images/Activity Randomizer2 copy.png"],
+    "images": ["images/Activity Randomizer2 copy-min.png"],
     "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
   },
   {
