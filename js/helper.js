@@ -45,7 +45,7 @@ var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
 
 /*
-The Internationalize Names challenge found in the lesson Flow Control from JavaScript Basics requires you to create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
+The Internationalize Names
 */
 $(document).ready(function() {
   $('button').click(function() {
@@ -58,21 +58,21 @@ $(document).ready(function() {
 /*
 The next few lines about clicks are for the Collecting Click Locations
 */
-var clickLocations = [];
+// var clickLocations = [];
 
-function logClicks(x,y) {
-  clickLocations.push(
-    {
-      x: x,
-      y: y
-    }
-  );
-  console.log('x location: ' + x + '; y location: ' + y);
-}
+// function logClicks(x,y) {
+//   clickLocations.push(
+//     {
+//       x: x,
+//       y: y
+//     }
+//   );
+//   console.log('x location: ' + x + '; y location: ' + y);
+// }
 
-$(document).click(function(loc) {
-  // your code goes here!
-});
+// $(document).click(function(loc) {
+//   // your code goes here!
+// });
 
 var map;    // declares a global map variable
 
