@@ -144,8 +144,6 @@ function initMap() {
       console.log(marker.title);
     });
 
-    
-
     // this is where the pin actually gets added to the map.
     // bounds.extend() takes in a map location object
     bounds.extend(new google.maps.LatLng(lat, lon));
