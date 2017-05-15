@@ -75,9 +75,8 @@ The next few lines about clicks are for the Collecting Click Locations
 // });
 
 var map;
-var infoWindow = new google.maps.InfoWindow();
 
-function initializeMap() {
+function initMap() {
 
   var locations;
 
@@ -92,6 +91,8 @@ function initializeMap() {
   appended to #mapDiv in resumeBuilder.js.
   */
   map = new google.maps.Map(document.querySelector('#map'), mapOptions);
+
+  var infoWindow = new google.maps.InfoWindow();
 
   function locationFinder() {
 
@@ -197,10 +198,12 @@ function initializeMap() {
   // the locations array
   pinPoster(locations);
 
+  window.initMap = initMap;
+
 }
 
 // Calls the initializeMap() function when the page loads
-window.addEventListener('load', initializeMap);
+window.addEventListener('load', initMap());
 
 // Vanilla JS way to listen for resizing of the window
 // and adjust map bounds
