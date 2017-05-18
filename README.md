@@ -1,10 +1,15 @@
+# Visit the live GitHub Pages:
+https://jeffberlin.github.io/javascript-resume/
+
 # How to run:
 * Download the .zip files
 * Open the `index.html` in the browser
 * Resume should be loaded and working!
 
-# Visit the live GitHub Pages:
-https://jeffberlin.github.io/javascript-resume/
+# Screenshots
+![ScreenShot](screenshot1.png)
+![ScreenShot](screenshot2.png)
+![ScreenShot](screenshot3.png)
 
 # Project Details
 ## How do I complete this project?
