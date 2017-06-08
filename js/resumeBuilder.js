@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
-  "skills" : ["HTML", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge"],
+  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge"],
   "biopic" : "images/racing-min.jpg"
 };
 
@@ -53,14 +53,14 @@ var work = {
       "title": "Operations Manager",
       "location": "North Myrtle Beach, SC",
       "dates": "September 2015 - January 2017",
-      "description": "Handled all of the online sales, project secheduling, inventory ordering, and processed all inbound and outbound shipments. Worked with the technicians to verify all parts and materials were available to complete projects."
+      "description": "Handled all of the online sales, project scheduling, inventory ordering, and processed all inbound and outbound shipments. Also, worked with the technicians to verify all parts and materials were available to complete projects."
     },
     {
       "employer": "Hadwin-White Buick, GMC, Subaru",
       "title": "Parts Associate, Shipping and Receiving",
       "location": "Conway, SC",
       "dates": "July 2014 - June 2015",
-      "description": "Handled all inbound shipments, assisted walk-in customers, and answered phone calls. Worked one-on-one with the Parts Manager to increase sales, productivity, and efficiency."
+      "description": "Handled all inbound shipments, assisted walk-in customers, and assisted with over the phone inquries. Worked one-on-one with the Parts Manager to increase sales, productivity, and efficiency."
     },
     {
       "employer": "J&P Management Inc., DBA Jersey Mike's Subs",
@@ -74,7 +74,7 @@ var work = {
       "title": "Carpenter/Painter",
       "location": "North Myrtle Beach, SC",
       "dates": "July 2010 - November 2012",
-      "description": "Assisted the foreman in completing remodeling projects, demolition work, and repairs."
+      "description": "Assisted the foreman in completing remodeling projects, demolition work, and maintenance repairs."
     }
   ]
   };
@@ -185,28 +185,28 @@ education.display();
   {
     "title": "Activity Randomizer",
     "dates": "April 2017",
-    "description": "Ever wanted to go do something instead of sit around and be boring, but never quite sure what to do? Here is the solution! A webpage that randomly picks activities to do! (Built using Foundation CSS).",
+    "description": "Ever wanted to go do something instead of sit around and be bored, but never quite sure what to do? Here is the solution! A webpage that randomly picks activities to do! (Built using Foundation CSS, HTML, and JavaScript).",
     "images": ["images/Activity Randomizer2 copy-min.png"],
     "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
   },
   {
     "title": "JavaScript Arcade Frogger Game",
     "dates": "December 2016",
-    "description": "A newer version of the Frogger, except with different characters and a new layout! (Built with JS, JQuery, HTML, and CSS).",
+    "description": "A newer version of the Frogger game, except with different characters and a new layout! (Built using JavaScript, JQuery, HTML, and CSS).",
     "images": ["images/JS Arcade Game.png"],
     "url": "https://jeffberlin.github.io/Frogger-JavaScript/"
   },
   {
     "title": "Wilmington Brewers",
     "dates": "March 2017",
-    "description": "An interactive Google Map that displays the breweries in Wilmington, NC and displays infowindow information provided by Foursquare. (Built using KnockoutJS).",
+    "description": "An interactive Google Map that displays the breweries in Wilmington, NC and displays infowindow information provided by Foursquare. (Built using HTML, CSS, JavaScript, KnockoutJS, AJAX requests, and Webpack).",
     "images": ["images/Wilmington Brewers.png"],
     "url": "https://github.com/jeffberlin/Wilmington-Brewers"
   },
   {
     "title": "RandomAPI User",
     "dates": "February 2017",
-    "description": "Built to the specifications of a design from Gavin Anthony, that pulls certain information from API users.",
+    "description": "Built to the specifications of a design from Gavin Anthony, that pulls certain information from API users. (Built using HTML, Flexbox, and JavaScript).",
     "images": ["images/randomapi.png"],
     "url": "https://jeffberlin.github.io/randomAPI/"
   }
