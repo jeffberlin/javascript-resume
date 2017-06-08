@@ -109,7 +109,8 @@ var work = {
       "url": "https://www.efi101.com"
     }
   ],
-    "onlineCourses": [{
+    "onlineCourses" : [
+    {
       "title": "Front-end Website Developement Nanodegree",
       "school": "Udacity",
       "dates": "August 2016 - March 2017",
@@ -118,7 +119,18 @@ var work = {
       "location": "Online",
       "degree": "Nanodegree",
       "dates": "August 2016 - March 2017",
-      "majors": "Front-end Website Development"
+      "majors": ["Front-end Website Development"]
+    },
+    {
+      "title": "Full Stack Developer Nanodegree",
+      "school": "Udacity",
+      "dates": "June 2017 - Present",
+      "url": "https://www.udacity.com",
+      "name": "Udacity",
+      "location": "Online",
+      "degree": "Nanodegree",
+      "dates": "June 2017 - Present",
+      "majors": ["Full Stack Website Development"]
     }
   ]
 };
@@ -137,13 +149,14 @@ education.display = function() {
     $(".education-entry:last").append(formattedEducation);
   });
 
+  $(".education-entry:last").append(HTMLonlineClasses);
+
   education.onlineCourses.forEach(function(classes) {
-    $(".education-entry:last").append(HTMLonlineClasses);
     var formattedTitle = HTMLonlineTitle.replace(data, classes.title).replace('#', classes.url);
     var formattedSchool = HTMLonlineSchool.replace(data, classes.school);
     var formattedURL = HTMLonlineURL.replace(data, classes.url).replace('#', classes.url);
     var formattedDates = HTMLonlineDates.replace(data, classes.dates);
-    var formattedOnlineClasses = formattedTitle + formattedSchool + formattedDates + formattedURL;
+    var formattedOnlineClasses = formattedTitle + formattedSchool + formattedDates + '<div style="padding-bottom: 10px;"' + '</div>' + '<div style="padding-bottom: 10px;"' + '</div>';
     $(".education-entry:last").append(formattedOnlineClasses);
   });
 };
