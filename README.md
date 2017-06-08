@@ -7,7 +7,7 @@ https://jeffberlin.github.io/javascript-resume/
 * Resume should be loaded and working!
 
 # Screenshots
-![ScreenShot](screenshot1.png)
+![ScreenShot](screenshot01.png)
 ![ScreenShot](screenshot2.png)
 ![ScreenShot](screenshot3.png)
 
