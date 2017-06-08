@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
-  "skills" : ["HTML", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: KnockoutJS, ReactJS, NodeJS, Webpack", "JQuery", "AJAX", "Python", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge"],
+  "skills" : ["HTML", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge"],
   "biopic" : "images/racing-min.jpg"
 };
 
@@ -45,7 +45,7 @@ var work = {
       "title": "Mobile UI/UX Intern",
       "location": "Wilmington, NC",
       "dates": "January 2017 - Present",
-      "description": "Create website content, app features, and help with the design layout for mobile optimization. Assit the marketing team with focus group questioning for the UI/UX.",
+      "description": "Create website content, app features, and help with the design layout for mobile optimization and functionality.",
       "url": "https://www.jomoapp.com"
     },
     {
