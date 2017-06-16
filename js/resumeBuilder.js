@@ -42,10 +42,10 @@ var work = {
   "jobs": [
     {
       "employer": "JOMO, Inc.",
-      "title": "Mobile UI/UX Intern",
+      "title": "Mobile UI/UX Developer",
       "location": "Wilmington, NC",
       "dates": "January 2017 - Present",
-      "description": "Create website content, app features, and help with the design layout for mobile optimization and functionality.",
+      "description": "Create website content, app features, use responsive website design/development practices to ensure ultimate design layout for the best mobile optimization and functionality.",
       "url": "https://www.jomoapp.com"
     },
     {
