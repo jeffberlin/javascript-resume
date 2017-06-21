@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
-  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge"],
+  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge, Dreamweaver"],
   "biopic" : "images/racing-min.jpg"
 };
 
@@ -42,7 +42,7 @@ var work = {
   "jobs": [
     {
       "employer": "JOMO, Inc.",
-      "title": "UI/UX Developer",
+      "title": "UI/UX Intern",
       "location": "Wilmington, NC",
       "dates": "January 2017 - Present",
       "description": "Create website content, app features, use responsive website design/development practices to ensure ultimate design layout for the best mobile optimization and functionality.",
