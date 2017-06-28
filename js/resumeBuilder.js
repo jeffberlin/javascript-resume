@@ -60,7 +60,8 @@ var work = {
       "title": "Parts Associate, Shipping and Receiving",
       "location": "Conway, SC",
       "dates": "July 2014 - June 2015",
-      "description": "Handled all inbound shipments, assisted walk-in customers, and assisted with over the phone inquiries. Worked one-on-one with the Parts Manager to increase sales, productivity, and efficiency."
+      "description": "Handled all inbound shipments, assisted walk-in customers, and assisted with over the phone inquiries. Worked one-on-one with the Parts Manager to increase sales, productivity, and efficiency.",
+      "url": "http://www.hadwin-white.com/"
     },
     {
       "employer": "J&P Management Inc., DBA Jersey Mike's Subs",
