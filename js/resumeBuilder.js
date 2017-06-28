@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
-  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge, Dreamweaver"],
+  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "SQL", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge, Dreamweaver"],
   "biopic" : "images/racing-min.jpg"
 };
 
@@ -32,7 +32,7 @@ bio.display = function() {
 
   $("#topContacts, #footerContacts").append(HTMLmobile.replace(data, bio.contacts.mobile));
   $("#topContacts, #footerContacts").append(HTMLemail.replace(data, bio.contacts.email));
-  $("#topContacts, #footerContacts").append(HTMLlinkedIn.replace(data, bio.contacts.linkedIn).replace('#', 'https://www.linkedin.com/in/jeff-berlin-8a199813a'));
+  $("#topContacts, #footerContacts").append(HTMLlinkedIn.replace(data, bio.contacts.linkedIn).replace('#', 'https://www.linkedin.com/in/jeff-berlin'));
   $("#topContacts, #footerContacts").append(HTMLgithub.replace(data, bio.contacts.github).replace('#', 'https://www.github.com/jeffberlin'));
   $("#topContacts, #footerContacts").append(HTMLlocation.replace(data, bio.contacts.location));
 };
@@ -111,10 +111,10 @@ var work = {
   ],
     "onlineCourses" : [
     {
-      "title": "Front-end Website Developement Nanodegree",
+      "title": "Front-end Website Development Nanodegree",
       "school": "Udacity",
       "dates": "August 2016 - March 2017",
-      "url": "https://www.udacity.com",
+      "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001",
       "name": "Udacity",
       "location": "Online",
       "degree": "Nanodegree",
@@ -125,12 +125,23 @@ var work = {
       "title": "Full Stack Developer Nanodegree",
       "school": "Udacity",
       "dates": "June 2017 - Present",
-      "url": "https://www.udacity.com",
+      "url": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004",
       "name": "Udacity",
       "location": "Online",
       "degree": "Nanodegree",
       "dates": "June 2017 - Present",
       "majors": ["Full Stack Website Development"]
+    },
+    {
+      "title": "React Developer Nanodegree",
+      "school": "Udacity",
+      "dates": "June 2017 - Present",
+      "url": "https://www.udacity.com/course/react-nanodegree--nd019",
+      "name": "Udacity",
+      "location": "Online",
+      "degree": "Nanodegree",
+      "dates": "June 2017 - Present",
+      "majors": ["React Developer"]
     }
   ]
 };
@@ -176,6 +187,13 @@ education.display();
   var projects = {
     "projects": [
   {
+    "title": "Movie Trailers",
+    "dates": "June 2017",
+    "description": "Udacity Full Stack course project for building a web page to display our favorite movies with a pop-up movie trailer preview. (Built using HTML, Bootstrap CSS, and Python).",
+    "images": ["images/Movie Trailer Python.png"],
+    "url": "https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html"
+  },
+  {
     "title": "Black Sheep Content Co.",
     "dates": "May 2017",
     "description": "Created a sample homepage with links to social media pages and a contact form. (Built using HTML, CSS, Bootstrap, JQuery, and JavaScript).",
@@ -183,18 +201,18 @@ education.display();
     "url": "https://jeffberlin.github.io/Black_Sheep_Content_Co/index.html"
   },
   {
-    "title": "Activity Randomizer",
-    "dates": "April 2017",
-    "description": "Ever wanted to go do something instead of sit around and be bored, but never quite sure what to do? Here is the solution! A webpage that randomly picks activities to do! (Built using Foundation CSS, HTML, and JavaScript).",
-    "images": ["images/Activity Randomizer2 copy-min.png"],
-    "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
+    "title": "National Speed",
+    "dates": "May 2017 - Present",
+    "description": "A sample website created for an automotive performance shop. This page is still a work in progress that has been put on the back-burner. (Built using HTML5, Bootstrap CSS, JavaScript, and JQuery).",
+    "images": ["images/National Speed.png"],
+    "url": "https://jeffberlin.github.io/Nat-Speed/home.html"
   },
   {
-    "title": "JavaScript Arcade Frogger Game",
-    "dates": "December 2016",
-    "description": "A newer version of the Frogger game, except with different characters and a new layout! (Built using JavaScript, JQuery, HTML, and CSS).",
-    "images": ["images/JS Arcade Game.png"],
-    "url": "https://jeffberlin.github.io/Frogger-JavaScript/"
+    "title": "Activity Randomizer",
+    "dates": "April 2017",
+    "description": "Ever wanted to go do something instead of sit around and be bored, but never quite sure what to do? Here is the solution! A web page that randomly picks activities to do! (Built using Foundation CSS, HTML, and JavaScript).",
+    "images": ["images/Activity Randomizer2 copy-min.png"],
+    "url": "https://jeffberlin.github.io/Activity-Randomizer/picker.html"
   },
   {
     "title": "Wilmington Brewers",
@@ -209,6 +227,13 @@ education.display();
     "description": "Built to the specifications of a design from Gavin Anthony, that pulls certain information from API users. (Built using HTML, Flexbox, and JavaScript).",
     "images": ["images/randomapi.png"],
     "url": "https://jeffberlin.github.io/randomAPI/"
+  },
+  {
+    "title": "JavaScript Arcade Frogger Game",
+    "dates": "December 2016",
+    "description": "A newer version of the Frogger game, except with different characters and a new layout! (Built using JavaScript, JQuery, HTML, and CSS).",
+    "images": ["images/JS Arcade Game.png"],
+    "url": "https://jeffberlin.github.io/Frogger-JavaScript/"
   }
 ]
 };
