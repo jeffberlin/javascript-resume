@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
-  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "SQL", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, inDesign, Bridge, Dreamweaver"],
+  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "SQL", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, InDesign, Bridge, Dreamweaver"],
   "biopic" : "images/racing-min.jpg"
 };
 
@@ -247,5 +247,54 @@ projects.display = function() {
   }
 };
 projects.display();
+
+  var designs = {
+    "designs": [
+    {
+      "title": "Flyer",
+      "dates": "March 2017",
+      "description": "Sample flyer created using Adobe InDesign.",
+      "images": ["images/flyer.png"],
+      "url": "images/flyer.png"
+    },
+    {
+      "title": "Side Slice Pizza logo",
+      "dates": "March 2017",
+      "description": "Using Adobe Illustrator, I recreated a sample logo for 'Side Slice Pizza'.",
+      "images": ["images/side-slice-pizza-logo.png"],
+      "url": "images/side-slice-pizza-logo.png"
+    },
+    {
+      "title": "Brochure",
+      "dates": "March 2017",
+      "description": "Sample brochure created using Adobe InDesign.",
+      "images": ["images/brochure.png"],
+      "url": "images/brochure.png"
+    },
+    {
+      "title": "Business Card",
+      "dates": "March 2017",
+      "description": "Sample business card created with Adobe InDesign.",
+      "images": ["images/business-card.png"],
+      "url": "images/business-card.png"
+    },
+    {
+      "title": "Postcard",
+      "dates": "March 2017",
+      "description": "Sample postcard created with Adobe InDesign.",
+      "images": ["images/postcard.png"],
+      "url": "images/postcard.png"
+    }
+]
+};
+
+designs.display = function() {
+  for (var i = 0; i < designs.designs.length; i++) {
+    $("#designs").append(HTMLgraphicStart);
+
+    $(".designs-entry:last").append(HTMLgraphicTitle.replace(data, designs.designs[i].title).replace('#', designs.designs[i].url), (HTMLgraphicDates.replace(data, designs.designs[i].dates)), (HTMLgraphicDescription.replace(data, designs.designs[i].description)), (HTMLgraphicImage.replace(data, designs.designs[i].images)).replace('#', designs.designs[i].images));
+  }
+};
+designs.display();
 
 $("#mapDiv").append(googleMap);

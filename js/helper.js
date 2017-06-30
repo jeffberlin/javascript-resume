@@ -28,6 +28,12 @@ var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<a href="#"><img src="%data%"></a>';
 
+var HTMLgraphicStart = '<div class="designs-entry"></div>';
+var HTMLgraphicTitle = '<a href="#">%data%</a>';
+var HTMLgraphicDates = '<div class="date-text">%data%</div>';
+var HTMLgraphicDescription = '<p><br>%data%</p>';
+var HTMLgraphicImage = '<a href="#"><img src="%data%"></a>';
+
 var HTMLschoolStart = '<div class="education-entry"></div>';
 var HTMLschoolName = '<a href="#">%data%';
 var HTMLschoolDegree = ' -- %data%</a>';

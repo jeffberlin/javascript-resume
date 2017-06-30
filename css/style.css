@@ -22,7 +22,8 @@ h6 {
 
 .education-entry,
 .work-entry,
-.project-entry {
+.project-entry,
+.designs-entry {
   padding: 0 5%;
 }
 
@@ -91,7 +92,7 @@ a {
   margin-top: 10px;
 }
 
-.work-entry a, #projects a, #education a {
+.work-entry a, #projects a, #education a, #designs a {
   display: block;
   font-size: 18px;
 }
