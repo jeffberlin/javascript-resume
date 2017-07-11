@@ -14,7 +14,7 @@ var bio = {
     "Wilmington, NC"
   ],
   "welcomeMessage" : "Front-end Web Developer and race car driver!",
-  "skills" : ["HTML / HTML5", "CSS: Responsive CSS Design, Zurb Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "SQL", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, InDesign, Bridge, Dreamweaver"],
+  "skills" : ["HTML / HTML5", "CSS: Responsive Design, Foundation, Bootstrap, Flexbox, Grid CSS", "JavaScript: JQuery, AJAX, KnockoutJS, ReactJS, NodeJS, Webpack, Jasmine Testing", "Python", "SQL / Postgres", "Git / GitHub", "Microsoft Office 365", "Slack", "Adobe Creative Cloud: Photoshop, Illustrator, InDesign, Bridge, Dreamweaver"],
   "biopic" : "images/racing-min.jpg"
 };
 
