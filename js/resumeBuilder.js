@@ -251,6 +251,13 @@ projects.display();
   var designs = {
     "designs": [
     {
+      "title": "Appalachian Slab & Timber",
+      "dates": "July 2017",
+      "description": "Created a 'brand' logo for a company in Western North Carolina",
+      "images": ["images/brandlogo copy.png"],
+      "url": "images/brandlogo-copy.png"
+    },
+    {
       "title": "Flyer",
       "dates": "March 2017",
       "description": "Sample flyer created using Adobe InDesign.",
