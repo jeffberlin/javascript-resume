@@ -251,9 +251,16 @@ projects.display();
   var designs = {
     "designs": [
     {
-      "title": "Appalachian Slab & Timber",
-      "dates": "July 2017",
-      "description": "Created a 'brand' logo for a company in Western North Carolina using Adobe Illustrator and Photoshop.",
+      "title": "Appalachian Slab & Timber (main logo)",
+      "dates": "July - August 2017",
+      "description": "Created a main logo for a company in western North Carolina using Adobe Illustrator and Photoshop.",
+      "images": ["images/applogo.png"],
+      "url": "images/applogo.png"
+    },
+    {
+      "title": "Appalachian Slab & Timber (branding logo)",
+      "dates": "July - August 2017",
+      "description": "Created a 'brand' logo for a company in western North Carolina using Adobe Illustrator and Photoshop.",
       "images": ["images/brandlogo.png"],
       "url": "images/brandlogo.png"
     },
