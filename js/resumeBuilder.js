@@ -254,7 +254,7 @@ projects.display();
       "title": "Appalachian Slab & Timber",
       "dates": "July 2017",
       "description": "Created a 'brand' logo for a company in Western North Carolina",
-      "images": ["images/brandlogo copy.png"],
+      "images": ["images/brandlogo-copy.png"],
       "url": "images/brandlogo-copy.png"
     },
     {
