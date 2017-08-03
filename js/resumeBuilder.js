@@ -251,6 +251,13 @@ projects.display();
   var designs = {
     "designs": [
     {
+      "title": "Blackeye Emoji",
+      "dates": "August 2017",
+      "description": "Used Adobe Illustrator to create a custom Emoji with a blackeye.",
+      "images": ["images/blackeye.png"],
+      "url": "images/blackeye.png"
+    },
+    {
       "title": "Appalachian Slab & Timber (main logo)",
       "dates": "July - August 2017",
       "description": "Created a main logo for a company in western North Carolina using Adobe Illustrator and Photoshop.",
