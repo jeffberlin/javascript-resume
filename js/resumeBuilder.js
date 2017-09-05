@@ -45,7 +45,7 @@ var work = {
       "title": "UI/UX Intern",
       "location": "Wilmington, NC",
       "dates": "January 2017 - Present",
-      "description": "Create website content, app features, use responsive website design/development practices to ensure ultimate design layout for the best mobile optimization and functionality.",
+      "description": "Created the website based on the designs, while doing design work for the logos on the website. Assist with graphic design work for advertising and consult with mobile developers for app features and testing for bugs.",
       "url": "https://www.jomoapp.com"
     },
     {
@@ -187,6 +187,13 @@ education.display();
 
   var projects = {
     "projects": [
+  {
+    "title": "JOMO, Inc.",
+    "dates": "August 2017",
+    "description": "Created the website based on designs from the designer and I made sure the website was responsive for mobile use. Also, handled the graphic design work for the logos on the website. Built the site using HTML, CSS, Bootstrap, JavaScript, and JQuery.",
+    "images": ["images/jomoapp screenshot.png"],
+    "url": "https://www.jomoapp.com"
+  },
   {
     "title": "Movie Trailers",
     "dates": "June 2017",
