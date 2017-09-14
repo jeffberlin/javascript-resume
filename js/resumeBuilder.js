@@ -191,7 +191,7 @@ education.display();
     "title": "JOMO, Inc.",
     "dates": "August 2017",
     "description": "Created the website based on designs from the designer and I made sure the website was responsive for mobile use. Also, handled the graphic design work for the logos on the website. Built the site using HTML, CSS, Bootstrap, JavaScript, and JQuery.",
-    "images": ["images/jomoapp screenshot.png"],
+    "images": ["images/jomoapp screenshot.png"], // images/jomoapp screenshot 2.png, images/jomoapp screenshot 3.png, images/jomoapp screenshot 4.png,
     "url": "https://www.jomoapp.com"
   },
   {
@@ -227,7 +227,7 @@ education.display();
     "dates": "March 2017",
     "description": "An interactive Google Map that displays the breweries in Wilmington, NC and displays infowindow information provided by Foursquare. (Built using HTML, CSS, JavaScript, KnockoutJS, AJAX requests, and Webpack).",
     "images": ["images/Wilmington Brewers.png"],
-    "url": "https://github.com/jeffberlin/Wilmington-Brewers"
+    "url": "https://jeffberlin.github.io/Wilmington-Breweries/"
   },
   {
     "title": "RandomAPI User",
