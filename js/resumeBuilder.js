@@ -226,7 +226,7 @@ education.display();
     "title": "Wilmington Brewers",
     "dates": "March 2017",
     "description": "An interactive Google Map that displays the breweries in Wilmington, NC and displays infowindow information provided by Foursquare. (Built using HTML, CSS, JavaScript, KnockoutJS, AJAX requests, and Webpack).",
-    "images": ["images/Wilmington Brewers.png"],
+    "images": ["images/ilm-brew.png"],
     "url": "https://jeffberlin.github.io/Wilmington-Breweries/"
   },
   {
@@ -257,6 +257,13 @@ projects.display();
 
   var designs = {
     "designs": [
+    {
+      "title": "ILM Brew",
+      "dates": "September 2017",
+      "description": "Created a logo for the Wilmington Breweries web page, using Sketch and Adobe Photoshop.",
+      "images": ["images/ilm_brew_logo.png"],
+      "url": "images/ilm_brew_logo.png"
+    },
     {
       "title": "Blackeye Emoji",
       "dates": "August 2017",
