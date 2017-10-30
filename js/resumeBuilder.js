@@ -188,11 +188,25 @@ education.display();
   var projects = {
     "projects": [
   {
-    "title": "JOMO, Inc.",
+    "title": "JOMO, Inc. (homepage)",
     "dates": "August 2017",
-    "description": "Created the website based on designs from the designer and I made sure the website was responsive for mobile use. Also, handled the graphic design work for the logos on the website. Built the site using HTML, CSS, Bootstrap, JavaScript, and JQuery.",
+    "description": "Created the website based on designs from the designer and I made sure the website was responsive for mobile use. Also, handled the graphic design work for the logos and images on the website. Built the site using HTML, CSS, Bootstrap, JavaScript, and JQuery.",
     "images": ["images/jomoapp screenshot.png"], // images/jomoapp screenshot 2.png, images/jomoapp screenshot 3.png, images/jomoapp screenshot 4.png,
     "url": "https://www.jomoapp.com"
+  },
+  {
+    "title": "JOMO Charlotte Prizes Page",
+    "dates": "October 2017",
+    "description": "Built the website, responsive layout, and the images based on designs from the designer. This page is to show all of the prizes for the giveaway and includes videos that are linked to each image.",
+    "images": ["images/jomocharlotte.png"],
+    "url": "https://www.jomoapp.com/rep"
+  },
+  {
+    "title": "JOMO Charlotte Campus Rep Page",
+    "dates": "October 2017",
+    "description": "Built the website, responsive layout, and created the design in browser. This page is to explain the position and allow interested candidates to sign up. Built using HTML, CSS, Bootstrap, Javascript, JQuery, and Formspree.",
+    "images": ["images/jomorep.png"],
+    "url": "https://www.jomoapp.com/rep"
   },
   {
     "title": "Movie Trailers",
@@ -257,6 +271,13 @@ projects.display();
 
   var designs = {
     "designs": [
+    {
+      "title": "JOMO video fade-out",
+      "dates": "October 2017",
+      "description": "Promotional video fade out screen to show other prizes. I created the individual images to be used in the main image.",
+      "images": ["images/video_fade_green.png"],
+      "url": "images/video_fade_green.png"
+    },
     {
       "title": "ILM Brew",
       "dates": "September 2017",
