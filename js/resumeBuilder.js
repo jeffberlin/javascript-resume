@@ -188,32 +188,44 @@ education.display();
   var projects = {
     "projects": [
   {
+    "title": "TRU Colors Brewing Co.",
+    "dates": "November 2017",
+    "description": "Designed and coded the entire website for a local startup. Used HTML5, Bootstrap CSS, Javascript, JQuery, Adobe Photoshop, and Sketch to build and maintain the pages.",
+    "images": ["images/tru_colors_screenshot_min.jpg"],
+    "url": "https://www.trucolors.co",
+    "imagesFull": ["images/tru_colors_screenshot.png"]
+  },
+  {
     "title": "JOMO, Inc. (homepage)",
     "dates": "August 2017",
     "description": "Created the website based on designs from the designer and I made sure the website was responsive for mobile use. Also, handled the graphic design work for the logos and images on the website. Built the site using HTML, CSS, Bootstrap, JavaScript, and JQuery.",
-    "images": ["images/jomoapp screenshot.png"], // images/jomoapp screenshot 2.png, images/jomoapp screenshot 3.png, images/jomoapp screenshot 4.png,
-    "url": "https://www.jomoapp.com"
+    "images": ["images/jomoapp_screenshot_min.jpg"], // images/jomoapp screenshot 2.png, images/jomoapp screenshot 3.png, images/jomoapp screenshot 4.png,
+    "url": "https://www.jomoapp.com",
+    "imagesFull": ["images/jomoapp_screenshot.png"]
   },
   {
     "title": "JOMO Charlotte Prizes Page",
     "dates": "October 2017",
     "description": "Built the website, responsive layout, and the images based on designs from the designer. This page is to show all of the prizes for the giveaway and includes videos that are linked to each image.",
-    "images": ["images/jomocharlotte.png"],
-    "url": "https://www.jomoapp.com/rep"
+    "images": ["images/jomo_charlotte_min.jpg"],
+    "url": "https://www.jomoapp.com/rep",
+    "imagesFull": ["images/jomo_charlotte.png"]
   },
   {
     "title": "JOMO Charlotte Campus Rep Page",
     "dates": "October 2017",
     "description": "Built the website, responsive layout, and created the design in browser. This page is to explain the position and allow interested candidates to sign up. Built using HTML, CSS, Bootstrap, Javascript, JQuery, and Formspree.",
-    "images": ["images/jomorep.png"],
-    "url": "https://www.jomoapp.com/rep"
+    "images": ["images/jomo_rep_min.jpg"],
+    "url": "https://www.jomoapp.com/rep",
+    "imagesFull": ["images/jomo_rep.png"]
   },
   {
     "title": "Movie Trailers",
     "dates": "June 2017",
     "description": "Udacity Full Stack course project for building a web page to display our favorite movies with a pop-up movie trailer preview. (Built using HTML, Bootstrap CSS, and Python).",
-    "images": ["images/Movie Trailer Python.png"],
-    "url": "https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html"
+    "images": ["images/python_movie_trailer_min.jpg"],
+    "url": "https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html",
+    "imagesFull": ["images/python_movie_trailer.png"]
   },
   {
     "title": "Black Sheep Content Co.",
@@ -264,7 +276,7 @@ projects.display = function() {
   for (var i = 0; i < projects.projects.length; i++) {
     $("#projects").append(HTMLprojectStart);
 
-    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title).replace('#', projects.projects[i].url), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)).replace('#', projects.projects[i].images));
+    $(".project-entry:last").append(HTMLprojectTitle.replace(data, projects.projects[i].title).replace('#', projects.projects[i].url), (HTMLprojectDates.replace(data, projects.projects[i].dates)), (HTMLprojectDescription.replace(data, projects.projects[i].description)), (HTMLprojectImage.replace(data, projects.projects[i].images)).replace('#', projects.projects[i].imagesFull));
   }
 };
 projects.display();
