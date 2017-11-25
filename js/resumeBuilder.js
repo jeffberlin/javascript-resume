@@ -190,7 +190,7 @@ education.display();
   {
     "title": "TRU Colors Brewing Co.",
     "dates": "November 2017",
-    "description": "Designed and coded the entire website for a local startup. Used HTML5, Bootstrap CSS, Javascript, JQuery, Adobe Photoshop, and Sketch to build and maintain the pages.",
+    "description": "From the ground up! I was responsible for the design and then writing the code for the entire website. The homepage uses a video background when on larger screens, but an image when on most tablets and all phone screens. The site was built using HTML5, Bootstrap CSS, Javascript, JQuery, Formspree, and deployed the site using Heroku. I used Abobe Photoshop, Illustrator, and Sketch for modifying images.",
     "images": ["images/tru_colors_screenshot_min.jpg"],
     "url": "https://www.trucolors.co",
     "imagesFull": ["images/tru_colors_screenshot.png"]
@@ -283,6 +283,13 @@ projects.display();
 
   var designs = {
     "designs": [
+    // {
+    //   "title": "TRU Colors Brewing Co. Brochure",
+    //   "dates": "November 2017",
+    //   "description": "Created a brochure for TRU Colors to give out to their potential contractors.",
+    //   "images": ["images/"],
+    //   "url": "images/"
+    // },
     {
       "title": "JOMO video fade-out",
       "dates": "October 2017",
@@ -300,7 +307,7 @@ projects.display();
     {
       "title": "Blackeye Emoji",
       "dates": "August 2017",
-      "description": "Used Adobe Illustrator to create a custom Emoji with a blackeye.",
+      "description": "Used Adobe Illustrator to create a custom Emoji with a black eye.",
       "images": ["images/blackeye.png"],
       "url": "images/blackeye.png"
     },
