@@ -44,7 +44,7 @@ var work = {
       "employer": "JOMO, Inc.",
       "title": "Front-end Web Developer",
       "location": "Wilmington, NC",
-      "dates": "January 2017 - Present",
+      "dates": "January 2017 - December 2017",
       "description": "Created the website based on the designs, assist with graphic design work for advertising, and consult with mobile development team on app features and testing for any bugs.",
       "url": "https://www.jomoapp.com"
     },
@@ -200,7 +200,7 @@ education.display();
     "dates": "August 2017",
     "description": "Created the website based on designs from the designer and I made sure the website was responsive for mobile use. Also, handled the graphic design work for the logos and images on the website. Built the site using HTML, CSS, Bootstrap, JavaScript, and JQuery.",
     "images": ["images/jomoapp_screenshot_min.jpg"], // images/jomoapp screenshot 2.png, images/jomoapp screenshot 3.png, images/jomoapp screenshot 4.png,
-    "url": "https://www.jomoapp.com",
+    "url": "https://jeffberlin.github.io/JOMO_website/index.html",
     "imagesFull": ["images/jomoapp_screenshot.png"]
   },
   {
@@ -208,7 +208,7 @@ education.display();
     "dates": "October 2017",
     "description": "Built the website, responsive layout, and the images based on designs from the designer. This page is to show all of the prizes for the giveaway and includes videos that are linked to each image.",
     "images": ["images/jomo_charlotte_min.jpg"],
-    "url": "https://www.jomoapp.com/rep",
+    "url": "https://jeffberlin.github.io/JOMO_website/charlotte.html",
     "imagesFull": ["images/jomo_charlotte.png"]
   },
   {
@@ -216,7 +216,7 @@ education.display();
     "dates": "October 2017",
     "description": "Built the website, responsive layout, and created the design in browser. This page is to explain the position and allow interested candidates to sign up. Built using HTML, CSS, Bootstrap, Javascript, JQuery, and Formspree.",
     "images": ["images/jomo_rep_min.jpg"],
-    "url": "https://www.jomoapp.com/rep",
+    "url": "https://jeffberlin.github.io/JOMO_website/rep.html",
     "imagesFull": ["images/jomo_rep.png"]
   },
   {
