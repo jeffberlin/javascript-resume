@@ -6,7 +6,7 @@ var bio = {
     "email": "jeff@jbrally.com",
     "linkedIn": "Jeff Berlin",
     "github": "jeffberlin",
-    "location": "Wilmington, NC"
+    "location": "North Myrtle Beach, SC"
   },
   "placesLived": [
     "Wilmington, DE",
