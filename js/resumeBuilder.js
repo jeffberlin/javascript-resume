@@ -41,6 +41,14 @@ bio.display();
 var work = {
   "jobs": [
     {
+      "employer": "TRU Colors Brewing Co.",
+      "title": "UI/UX Developer (Contractor)",
+      "location": "Wilmington, NC",
+      "dates": "December 2017 - Present",
+      "description": "Resposnible for website design, functionality, and maintenance. Create company brochures, and graphics for advertising.",
+      "url": "https://www.trucolors.co"
+    },
+    {
       "employer": "JOMO, Inc.",
       "title": "Front-end Web Developer",
       "location": "Wilmington, NC",
